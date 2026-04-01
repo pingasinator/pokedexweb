@@ -13,7 +13,9 @@ const HOST = process.env.HOST || "localhost";
 const app = express();
 
 //Autoriser les requêtes cross-origin
-app.use(cors());
+app.use(cors({
+    origin : "*"
+}));
 
 //Parser le body des requêtes (JSON)
 app.use(express.json());
