@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const {getAllPokemons, getPokemonById,getPokemonTypesById,getPokemonEvolutionsById} = require("../controllers/pokemonsController");
+const {getAllPokemons, getPokemonById,getPokemonTypesById,getPokemonEvolutionsById,getPokemonBaseById} = require("../controllers/pokemonsController");
 
 // Route qui liste tous les pokémons
 router.get("/", getAllPokemons);
@@ -8,6 +8,8 @@ router.get("/", getAllPokemons);
 router.get("/:id", getPokemonById);
 // Route qui liste les types d'un pokemon
 router.get("/:id/types", getPokemonTypesById);
-// Route qui liste les évoulutions d'un pokemon
+// Route qui liste les évolutions d'un pokemon
 router.get("/:id/evolutions", getPokemonEvolutionsById);
+// Route qui ramène la base d'un pokemon
+router.get("/:id/base", getPokemonBaseById);
 module.exports = router;

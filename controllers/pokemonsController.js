@@ -50,4 +50,15 @@ const getPokemonEvolutionsById = async (req,res) => {
     }
 }
 
-module.exports = {getAllPokemons,getPokemonById,getPokemonTypesById,getPokemonEvolutionsById}
+// GET /api/pokemon/:id/base
+// Retourne la base d'un pokemon
+const getPokemonBaseById = async (req,res) => {
+    try{
+        const [rows] = await pool.query("SELECT * from pokemon LEFT JOIN evolueen on pokemon.id_pok = evolueen.id_pok_base WHERE id_pok_evol = ?",req.params.id);
+        res.json(rows);
+    }catch (error){
+        res.status(500).json({message: "Erreur serveur", error: error.message});
+    }
+}
+
+module.exports = {getAllPokemons,getPokemonById,getPokemonTypesById,getPokemonEvolutionsById,getPokemonBaseById}
