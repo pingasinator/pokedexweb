@@ -13,5 +13,5 @@ router.get("/:id/evolutions", getPokemonEvolutionsById);
 // Route qui ramène la base d'un pokemon
 router.get("/:id/base", getPokemonBaseById);
 // Route qui liste les déscriptions d'un pokemon
-router.get("/:id/description", getPokemonDescriptionById);
+router.get("/:id/descriptions", getPokemonDescriptionById);
 module.exports = router;

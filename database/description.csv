@@ -1,7 +1,7 @@
-"id_desc","description","id_pok"
-1,Son bulbe dorsal devient si gros qu'il ne peut plus se tenir sur ses membres postérieurs.,1
-2,"En emmagasinant de l'énergie, son bulbe grossit. Il en émane un arôme quand il va éclore.",1
-3,Le bouton sur son dos pompe apparemment l'énergie de son corps. On raconte que ce bouton devient une superbe fleur.,1
+id_desc,description,id_pok
+1,Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis la naissance.,1
+2,Il peut survivre plusieurs jours sans manger. Le bulbe sur son dos emmagasine de l'énergie.,1
+3,La poche en forme de bulbe sur son dos grossit au fil des ans. Elle contient un grand nombre de graines.,1
 4,Son bulbe dorsal devient si gros qu'il ne peut plus se tenir sur ses membres postérieurs.,2
 5,"En emmagasinant de l'énergie, son bulbe grossit. Il en émane un arôme quand il va éclore.",2
 6,Le bouton sur son dos pompe apparemment l'énergie de son corps. On raconte que ce bouton devient une superbe fleur.,2
@@ -59,96 +59,397 @@
 58,"Si ses moustaches sont coupées, il perd le sens de l'équilibre et devient moins rapide.",20
 59,Ses pattes sont palmées. Il peut poursuivre sa proie à travers les cours d'eau et les rivières.,20
 60,"Une fois attaqué, il se tient debout, montre ses crocs et hurle d'une façon intimidante vers son ennemi.",20
-61,,21
-62,,21
-63,,21
-64,,22
-65,,22
-66,,22
-67,,23
-68,,23
-69,,23
-70,,24
-71,,24
-72,,24
-73,,25
-74,,25
-75,,25
-76,,26
-77,,26
-78,,26
-79,,27
-80,,27
-81,,27
-82,,28
-83,,28
-84,,28
-85,,29
-86,,29
-87,,29
-88,,30
-89,,30
-90,,30
-91,,31
-92,,31
-93,,31
-94,,32
-95,,32
-96,,32
-97,,33
-98,,33
-99,,33
-100,,34
-101,,34
-102,,34
-103,,35
-104,,35
-105,,35
-106,,36
-107,,36
-108,,36
-109,,37
-110,,37
-111,,37
-112,,38
-113,,38
-114,,38
-115,,39
-116,,39
-117,,39
-118,,40
-119,,40
-120,,40
-121,,41
-122,,41
-123,,41
-124,,42
-125,,42
-126,,42
-127,,43
-128,,43
-129,,43
-130,,44
-131,,44
-132,,44
-133,,45
-134,,45
-135,,45
-136,,46
-137,,46
-138,,46
-139,,47
-140,,47
-141,,47
-142,,48
-143,,48
-144,,48
-145,,49
-146,,49
-147,,49
-148,,50
-149,,50
-150,,50
-151,,51
-152,,51
-,,51
+61,Il chasse les insectes dans les hautes herbes. Ses petites ailes lui permettent de voler très vite.,21
+62,"Incapable de voler à haute altitude, il se déplace très vite pour protéger son territoire.",21
+63,"Ses ailes étant courtes, il ne peut voler pendant longtemps. S'il ne mange pas, il se déplace aux alentours rapidement.",21
+64,Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement.,22
+65,"Un Pokémon à qui on ne la fait pas. S'il sent du danger, il fuit instantanément et à toute vitesse.",22
+66,Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement. Il fuit à la vue du danger.,22
+67,Il se déplace en silence pour dévorer des oeufs de roucool ou de piafabec.,23
+68,"Plus il est âgé, plus son corps est long. Il se love autour des arbres pour se reposer.",23
+69,Il glisse et se déplace de par les hautes herbes à la recherche de nourriture: les oeufs de roucool et de piafabec.,23
+70,Les motifs féroces peints sur son corps changent selon son environnement.,24
+71,Des études menées sur les motifs effrayants de son corps ont révélé six variations différentes.,24
+72,"Devant un ennemi, il dresse la tête et intimide l'adversaire de par les dessins effrayants parcourant son corps.",24
+73,"Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages.",25
+74,"Sa queue est dressée quand il est aux aguets. Si vous tirez dessus, il vous mordra.",25
+75,Il vit en forêt loin des hommes. Il emmagasine de l'électricité dans ses joues pour neutraliser tout assaillant.,25
+76,Il doit garder sa queue en contact avec le sol pour éviter toute électrocution.,26
+77,Il devient tout excité quand il emmagasine de l'électricité. Il brille alors dans le noir.,26
+78,"Ses attaques électriques peuvent atteindre jusqu'à 10.000 volts. Sa queue contient l'électricité, ainsi protégeant son corps.",26
+79,Il s'enterre dans les régions arides et désertiques. Il émerge seulement pour chasser.,27
+80,"Son corps est sec. Quand la nuit déploie ses ailes de fraîcheur, son épiderme se couvre de rosée.",27
+81,"En période de chasse, il se cache au bord de son terrier. Si une proie approche, il fond et l'entraîne en un éclair.",27
+82,Il se roule en boule hérissée de piques s'il est menacé. Il peut ainsi s'enfuir ou attaquer.,28
+83,"Ses griffes sont redoutables. Si une d'elles se casse, elle repoussera en un jour.",28
+84,Il se met en boule et sort ses piquants et s'abat sur ses ennemis. Il aime également trancher ses ennemis de ses griffes.,28
+85,Ce Pokémon est hérissé de dards empoisonnés. Les femelles ont des dards plus petits.,29
+86,Un Pokémon paisible qui n'aime pas se battre. Ses petites cornes sont empoisonnées.,29
+87,"Bien que petit, il doit être approché avec prudence: ses cornes sont extrêmement toxiques. La femelle a une corne plus petite.",29
+88,La corne de la femelle grandit lentement. Elle préfère attaquer avec ses griffes et sa gueule.,30
+89,"Caché au fond de son terrier, ses cornes se rétractent. C'est la preuve qu'il est au repos.",30
+90,"La femelle est habituellement docile mais une fois enragée, elle attaquera sans cesse à grands coups de griffes et de dents.",30
+91,Ses écailles très résistantes et son corps massif sont des armes dévastatrices.,31
+92,Son corps musclé est recouvert de lourdes écailles. Elles poussent selon un cycle et un ordre précis.,31
+93,Ses écailles dures et piquantes se dressent en cas d'agression. Il utilise sa masse imposante pour asséner de puissants coups.,31
+94,"Son ouïe très fine l'avertit du danger. Plus ses cornes sont grandes, plus son poison est mortel.",32
+95,"Ses grandes oreilles sont toujours dressées. S'il est menacé, il se défend avec un dard venimeux.",32
+96,"Ses larges oreilles sentent le danger. Il étendra ses pics s'il est en colère, les plus longs étant les plus toxiques.",32
+97,"Très agressif, il est prompt à répondre à la violence. La corne sur sa tête est venimeuse.",33
+98,"Ses cornes sont venimeuses. Si elles touchent un ennemi, elles lui injectent un poison violent.",33
+99,"Plus dure que le diamant, sa corne peut piquer un ennemi puis injecter une dose de venin dans la blessure de la victime.",33
+100,"Sa queue est une arme redoutable, il s'en sert pour attraper sa proie et lui broyer les os.",34
+101,Ses charges sont dévastatrices grâce à sa peau d'acier. Ses cornes percent même le diamant.,34
+102,Sa peau dure comme la pierre lui sert d'armure. La longue corne sur sa tête est affûtée et extrêmement venimeuse.,34
+103,"Très recherché pour son aura mystique, il est très rare et ne vit que dans des endroits précis.",35
+104,"Adoré pour son aspect mignon et joyeux, il est considéré comme rare. On en voit très peu.",35
+105,"D'une nature adorable, il est prisé en tant qu'animal de compagnie. Toutefois, il est rare et se cache dans peu d'endroits.",35
+106,Une sorte de petite fée très rare. Il se cache en apercevant un être humain.,36
+107,Il défend son habitat avec courage. C'est une sorte de fée qui ne se montre que rarement.,36
+108,Ses oreilles sont très sensibles et il n'aime pas les endroits bruyants ou surpeuplés. Il n'apparaît jamais en public.,36
+109,Il n'a qu'une seule queue à la naissance. Sa queue se divise à la pointe au fil des ans.,37
+110,Sa fourrure et sa queue sont magnifiques. En grandissant sa queue se divise en six.,37
+111,"Sa queue unique, belle et blanche se divise en six au fil des ans. Plus ce Pokémon grandit, plus ses queues se multiplient.",37
+112,Très intelligent et rancunier. Attrapez-lui une de ses queues et il vous maudira pour 1000 ans.,38
+113,"Selon la légende, 9 esprits se sont unis et incarnés dans ce Pokémon mystérieux et magique.",38
+114,Il est très féroce et revanchard. On dit qu'une malédiction de 1000 ans est infligée à qui s'amuserait à tirer l'une de ses queues.,38
+115,"Quand ses yeux s'illuminent, il chante une mystérieuse berceuse.",39
+116,Son regard déstabilise ses adversaires. Il chante ensuite une berceuse qui les endort.,39
+117,"Il hypnotise de ses grands yeux ronds et entonne une relaxante mélodie, ce qui endort la majorité des Pokémon des environs.",39
+118,"En cas de danger, il gonfle d'air son corps doux et potelé dans des proportions gigantesques.",40
+119,Son corps est malléable. En aspirant de l'air il se gonfle dans des proportions gigantesques.,40
+120,"Sa peau douce et souple lui permet de se gonfler comme un ballon. S'il est en colère, il avalera une large quantité d'air.",40
+121,Se déplace en colonie dans les endroits sombres. Il s'oriente grâce aux ultrasons.,41
+122,Il se dirige avec des ultrasons qui lui servent de sonar pour éviter les obstacles sur son trajet.,41
+123,"N'a ni yeux ni nez. Il émet des ultrasons qui rebondissent sur les parois, lui permettant de voler sans se cogner partout.",41
+124,"Une fois son adversaire mordu, il absorbera son énergie même s'il devient trop gros pour voler.",42
+125,Il attaque par surprise et sans crier gare. Ses longues dents lui servent à sucer le sang.,42
+126,Il mord sa victime et se nourrit de son énergie. Son groupe sanguin change en fonction de celui de sa victime.,42
+127,Pendant la journée il se cache sous terre. Il s'aventure la nuit pour planter des graines.,43
+128,"Il est souvent confondu avec un radis noir. Si on essaie de le soulever du sol, il hurle.",43
+129,"Tout le jour durant, il s'enterre et ne fait sortir que ses feuilles. On raconte qu'il crie si l'on tente de l'arracher du sol.",43
+130,Le liquide qui s'écoule de sa bouche est comestible. Il sert à appâter sa proie.,44
+131,Il sent très mauvais ! Mais 1 personne sur 1000 aime la puanteur de son corps nauséabond.,44
+132,"Le pistil de cette fleur pue à des kilomètres à la ronde. Si l'imprudent la respire de trop près, il risque de tomber dans les pommes.",44
+133,"Plus ses pétales son grands, plus ils contiennent de pollen toxique.",45
+134,Il fait un bruit sourd quand il secoue ses pétales pour disperser son pollen empoisonné.,45
+135,"Il vaporise une poudre allergisante depuis ses larges pétales. Plus les pétales sont grands, plus la poudre est abondante.",45
+136,Les champignons sur son dos se nourrissent des nutriments de leur hôte insectoïde.,46
+137,Il s'enfuit sous terre pour ronger des racines afin de nourrir le champignon sur son dos.,46
+138,Il grandit en aspirant les nutriments des racines d'un arbre. Les champignons dorsaux sont des parasites eux-mêmes.,46
+139,Une symbiose entre un parasite et un insecte. Le champignon a pris le contrôle de son hôte.,47
+140,Le champignon absorbe son hôte insectoïde. Il semble doué de facultés intellectuelles.,47
+141,L'insecte est contrôlé par ses champignons qui émettent des spores empoisonnés. Ceux-ci sont utilisés en Chine comme remède.,47
+142,Il vit à l'ombre des grands arbres où il mange des insectes. Il est attiré par la lumière.,48
+143,Ses grands yeux lui servent de radar. En pleine lumière on peut y distinguer des facettes.,48
+144,Il utilise ses grands yeux comme des radars pour se déplacer dans l'obscurité. Il est malgré lui attiré par la lumière.,48
+145,Les motifs ocre de ses ailes changent en fonction de son type de poison.,49
+146,Les écailles de ses ailes sont inamovibles. Elles libèrent un poison violent au contact.,49
+147,"La poudre sur ses ailes est empoisonnée. Il en répand une dose à chaque battement, il est donc dangereux d'être sous le vent.",49
+148,Il vit à un mètre sous la terre et se nourrit de racines. Il apparaît rarement à la surface.,50
+149,Il aime les lieux sombres. Il passe la majeure partie du temps sous terre ou dans des cavernes.,50
+150,"Sa tête sort approximativement de 20 cm au-dessus du sol. Toutefois, sa véritable taille reste à ce jour un mystère.",50
+151,Un groupe de Taupiqueur. Il crée des séismes en creusant à plus de 100km de profondeur.,51
+152,"Quand un de ces triplets creuse à plus de 90 Km/h, il provoque des tremblements de terre.",51
+153,Un triplé de Taupiqueur voyageant toujours ensemble. Ils creusent à plus de 100km de profondeur et créent des séismes.,51
+154,Il adore les pièces de monnaie. Il hante les rues à la recherche de pièces oubliées par les passants.,52
+155,Il est surtout actif la nuit. Il aime chaparder les objets ronds et brillants.,52
+156,"Dort le jour et vole la nuit. Une fois le soleil couché, ses yeux brillent et il s'adonne à son sport favori : piquer des pièces en riant.",52
+157,"Très apprécié pour sa fourrure, il est difficile à apprivoiser en raison de son caractère rétif.",53
+158,Sa démarche est souple et majestueuse. La pierre sur son front brille de mille feux.,53
+159,Il est apprécié en tant qu'animal domestique pour sa superbe fourrure mais son sale caractère le rend difficile à dresser.,53
+160,Il distrait ses ennemis avec des grimaces débiles et les attaque ensuite avec ses pouvoirs Psy.,54
+161,Il est victime de violents maux de tête. Il utilise ses pouvoirs psy de façon discrète.,54
+162,"Il semble en permanence distrait et absent. Toutefois, si ses migraines augmentent, il peut utiliser d'intrigants pouvoirs.",54
+163,Il nage avec élégance le long des côtes. Il est souvent confondu avec le monstre japonais: Kappa.,55
+164,Ses membres fins et longs sont terminés par des nageoires qui lui permettent de nager élégamment.,55
+165,"Ses pattes palmées font de lui un incroyable nageur. On peut le voir à l'aube, nageant majestueusement dans divers lacs.",55
+166,"Il se met en colère très vite. Calme ou furieux, son humeur change d'une seconde à l'autre.",56
+167,"Agile et rapide, ce Pokémon vit dans les arbres. Il est féroce et ne refuse jamais un combat.",56
+168,"Prompt à la colère, il peut attaquer à la moindre provocation. Très agile, il est difficile de l'approcher.",56
+169,"Agressif et teigneux, il poursuit son gibier jusqu'à épuisement complet.",57
+170,Sa fureur prend fin quand il n'a plus personne à frapper. Il est difficile d'en être témoin.,57
+171,"S'il est enragé, il poursuivra son ennemi jusqu'à l'épuisement. S'énervant souvent sans raison, il est impossible de le calmer.",57
+172,Pour protéger son territoire il aboie et mord jusqu'à ce que les intrus s'enfuient.,58
+173,Ce Pokémon est de nature amicale. Mais il devient hargneux quand son territoire est menacé.,58
+174,"Amical et loyal, mais aussi protecteur de son territoire, il mord souvent les étrangers l'approchant de trop près.",58
+175,Un Pokémon très recherché pour sa grâce légendaire. Son pas élégant semble glisser sur le vent.,59
+176,Un Pokémon légendaire en Chine. Il est admiré pour la grâce et la beauté de sa course.,59
+177,Un Pokémon légendaire en Chine. Il est admiré pour la grâce et la beauté de sa course.,59
+178,Il court mal avec ses petites pattes. Il préfère nager que de se tenir debout.,60
+179,Le sens de la spirale sur son ventre diffère selon son origine. Il préfère la nage à la marche.,60
+180,La spirale sur son ventre est un organe interne visible en transparence tant sa peau est fine. Il nage mieux qu'il ne marche.,60
+181,"Amphibie, il peut vivre à l'air libre mais il doit rester mouillé pour survivre.",61
+182,"Attaqué, il se sert de sa spirale pour endormir sa proie. Il peut ainsi s'enfuir.",61
+183,"Pouvant vivre sur le sol, il préfère rester dans l'eau. Hors d'un milieu aquatique, il transpire pour garder sa peau humide.",61
+184,"Excellent nageur, il pratique le crawl ou la nage papillon mieux qu'un champion olympique.",62
+185,Son corps très musclé lui permet de nager plus rapidement qu'un champion olympique.,62
+186,"Il est un puissant nageur, plus rapide qu'un champion humain. Il va vite et loin en respirant très peu.",62
+187,Son don de télépathie lui permet de sentir le danger et de se Teleporter en un lieu sûr.,63
+188,"Il dort 18 heures par jour. En cas de danger, il se téléporte vers un lieu sûr, même s'il est assoupi.",63
+189,"Même endormi, il peut repérer les ennemis et se Teleporter dans un endroit sûr, à l'abri du danger.",63
+190,Son corps émet des ondes alpha provoquant des migraines à ceux qui se trouvent à proximité.,64
+191,"Sa présence cause des événements étranges, comme des pendules marchant à l'envers.",64
+192,"En utilisant des pouvoirs Psy, tous ses neurones fonctionnent en symbiose pour créer de puissantes ondes alpha.",64
+193,Son super cerveau peut effectuer des opérations à la vitesse d'un ordinateur. Il a un Q.I. de 5000.,65
+194,"Ce Pokémon est très intelligent. Sa mémoire est immense, il retient tout ce qu'il apprend.",65
+195,Un Pokémon extrêmement intelligent aux pouvoirs psychiques. Il peut immédiatement identifier la faiblesse de l'ennemi.,65
+196,Il adore la musculation. Il pratique les arts martiaux pour devenir encore plus fort.,66
+197,"Très puissant malgré sa petite taille, il est passé maître en plusieurs types d'arts martiaux.",66
+198,Son corps entier est recouvert de muscles. Il peut soulever jusqu'à 100 humains et les balancer un peu partout.,66
+199,Son corps est si puissant qu'il lui faut une ceinture de force pour équilibrer ses mouvements.,67
+200,"Sa ceinture sert à retenir son énergie. Sans elle, il serait invincible et incontrôlable.",67
+201,"Bien qu'incroyablement fort, il reste modeste. Il retient sa force à l'aide d'une ceinture de maintien.",67
+202,Ses coups de poing sont si puissants qu'ils font voler ses adversaires jusqu'à l'horizon.,68
+203,Un seul de ses bras peut bouger une montagne. Rien ne résiste aux quatre bras en même temps.,68
+204,"Parmi toutes ses combinaisons de coups existe une série de directs, crochets et de coups de KARATÉ de ses quatre bras.",68
+205,Un Pokémon carnivore qui se nourrit de petits insectes. Ses racines servent d'attaches.,69
+206,Il préfère les endroits chauds et humides. Il capture sa proie avec ses lianes pour la dévorer.,69
+207,Une sorte de plante carnivore chassant de petits insectes. Il utilise ses racines comme des pieds pour marcher.,69
+208,Il crache de la Poudre Toxik pour immobiliser sa proie et il l'achève avec de l'Acide.,70
+209,Il peut avaler et digérer n'importe quoi grâce à l'hyperacidité de son estomac vorace.,70
+210,"Armé de feuilles fines comme un rasoir, il utilise son pollen toxique pour immobiliser l'ennemi et le dissoudre à coup d'Acide.",70
+211,Il vit en colonie dans la jungle mais personne n'en est jamais revenu vivant.,71
+212,Il attire sa proie avec une odeur de miel et l'avale en entier. Il la digère en un seul jour.,71
+213,"Il attire ses proies avec des senteurs de miel. Il avale tout insecte, bien sûr, mais aussi de petits animaux à l'occasion.",71
+214,"Flottant au bord des côtes, les pêcheurs se font souvent arroser d'acide quand ils en accrochent un.",72
+215,Certains échouent sur la plage et sèchent sur le sable. Poussez-les dans l'eau et ils revivent.,72
+216,Il lance des rayons lumineux de ses yeux. Il flotte dans les eaux peu profondes et pique les pêcheurs imprudents.,72
+217,"Ses tentacules sont rétractés au repos. En situation de chasse, ils s'allongent.",73
+218,Ses 80 tentacules sont extensibles et autonomes. Ils inoculent un poison au contact.,73
+219,"Il a 80 tentacules. Une fois l'ennemi enserré, les tentacules ne lâcheront jamais prise, quoi qu'il arrive.",73
+220,Il vit dans les plaines ou les montagnes. On le confond souvent avec un petit caillou.,74
+221,"On en trouve près des sentiers de montagne. Si vous marchez dessus, ils s'énervent et attaquent.",74
+222,"En voyageant vers le sommet d'une montagne, il utilise ses deux bras pour se hisser au-dessus de certains rochers.",74
+223,Pour se déplacer il dégringole le long des pentes. Il pulvérise tout obstacle sur son passage.,75
+224,"Il dévale les pentes le long des montagnes, et traverse les obstacles en les pulvérisant.",75
+225,"Il roule le long des pistes montagneuses. Il écrase les hautes herbes, les arbres et presque tout sur son passage.",75
+226,Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite.,76
+227,Son corps est blanc et tendre. Au contact de l'air sa peau se solidifie en une armure.,76
+228,"Son corps, accusant plus de 300 kilos, est plus dur que la pierre. Il augmente de volume en muant une fois par an.",76
+229,Ses sabots sont plus résistants que le diamant. Il peut aplatir n'importe quoi en le piétinant.,77
+230,"Capable de sauter très haut, ses sabots et ses pattes peuvent absorber l'impact de l'atterrissage.",77
+231,"Pouvant sauter par-dessus la Tour Eiffel en un seul saut, ce Pokémon possède des sabots plus durs que le diamant.",77
+232,"Doté d'un esprit de compétition, il poursuit toute créature rapide pour faire la course.",78
+233,Il aime la course. Il poursuit tout ce qui va plus vite que lui. Question d'honneur.,78
+234,Il ne peut s'empêcher de courir après les voitures ou les trains. Il taquine les 240 km/h en vitesse de pointe.,78
+235,"Très lent et endormi, il lui faut 5 secondes pour ressentir la douleur d'une attaque.",79
+236,"Lent et stupide, il aime se la couler douce en observant l'activité autour de lui.",79
+237,"Un Pokémon crétin constamment dans la lune qui aime pêcher avec sa queue. Endormi ou éveillé, il n'y a aucune différence.",79
+238,Le kokiyas accroché à la queue du ramoloss se nourrit des restes de son hôte.,80
+239,"Il se prélasse au soleil. Si le Kokiyas, accroché à sa queue s'en va, il redevient un Ramoloss.",80
+240,"Si sa queue est mordue par un Kokiyas, Ramoloss évolue en Flagadoss. Le Kokiyas semble aimer ce qu'il mange.",80
+241,Il contrôle la gravité pour pouvoir voler. Il attaque avec des cage-eclair.,81
+242,Sa nature défie les lois de la gravité. Il flotte grâce à un champ électromagnétique.,81
+243,Il vole en utilisant l'anti-gravité et lance des décharges de ses deux unités.,81
+244,"Constitué de Magneti reliés les uns aux autres, il apparaît lorsque le soleil brille.",82
+245,Il émet un signal radio étrange. Sa présence augmente la température de 1 degré dans un rayon de 1000 m.,82
+246,"Il est formé d'un assemblage de Magneti, attirés les uns aux autres suivant l'apparition de taches noires sur le soleil.",82
+247,Il utilise l'oignon qu'il a dans la bouche comme une épée d'acier.,83
+248,"Ils vivent près des roseaux. On en voit peu, ils sont peut-être en voie d'extinction.",83
+249,Il porte constamment la tige d'une plante mystérieuse. Il peut l'utiliser pour construire un nid ou pour attaquer.,83
+250,Cet oiseau vole très mal mais court très vite. Il laisse de gigantesques empreintes de pas.,84
+251,"Ses petites ailes ne lui permettent pas de voler, mais il peut courir très rapidement.",84
+252,"Un Pokémon à deux têtes. Il est plus doué pour courir que pour voler, il atteint même parfois les 100 km/h.",84
+253,Il élabore des plans complexes avec ses trois cerveaux. Une de ses têtes reste toujours éveillée.,85
+254,"Quand une des 2 têtes d'un Doduo se divise, il devient un Dodrio capable de courir à 60 Km/h.",85
+255,"Ses trois têtes expriment respectivement joie, colère et tristesse pour élaborer une stratégie. La nuit, une tête reste éveillée.",85
+256,La corne sur son front est très résistante. Elle lui sert à percer des blocs de glace.,86
+257,Il est à l'aise dans les endroits froids et gelés. Il peut nager dans l'eau à 0 degré.,86
+258,Il possède une peau épaisse recouverte d'une fourrure bleue. Il plonge sous la glace dans des eaux à moins 40.,86
+259,Il emmagasine la chaleur dans son corps. Il peut nager dans l'eau glacée à plus de 8 noeuds.,87
+260,Son corps entier est d'une couleur blanc neige. Il peut nager au milieu des icebergs.,87
+261,"Il emmagasine la chaleur dans son corps blanc, pur et recouvert de fourrure. Il parcourt les eaux glacées à 8 noeuds.",87
+262,"Vivant dans des tas d'ordures, il se nourrit des déchets polluants rejetés par les usines.",88
+263,Ce tas d'ordures concentrées sent très mauvais. Rien ne peut pousser dans son sillage putride.,88
+264,"Un truc collant transformé par les rayons X de la lune. Il adore tout ce qui est dégueu, toxique ou tout déchet industriel.",88
+265,Il est recouvert d'une épaisse couche toxique. Il laisse une trace empoisonnée derrière lui.,89
+266,Son odeur immonde provoque des évanouissements. Son odorat s'est atrophié par sa propre puanteur.,89
+267,Il est invisible s'il est entouré de détritus. Toucher son corps recouvert d'immondices peut entraîner un sévère empoisonnement.,89
+268,"Protégé par une carapace très résistante, il est vulnérable quand celle-ci s'ouvre.",90
+269,Sa coquille le protège de toute attaque. Si elle s'ouvre son corps fragile devient vulnérable.,90
+270,Sa coquille est plus dure que le diamant. Il se cache dans le sable sur les plages et attrape les proies de sa douce langue.,90
+271,"Une fois menacé, il envoie de rapides volées de dards. Sa partie interne est inconnue.",91
+272,Sa coquille plus dure que le diamant le protège. Il peut envoyer des volées de dards.,91
+273,Sa coquille est si dure qu'elle peut résister à l'explosion d'une bombe. Personne n'a jamais vu ce qu'elle cache à l'intérieur.,91
+274,Ce Pokémon gazeux plonge ses victimes dans un profond sommeil sans qu'elles ne s'en aperçoivent.,92
+275,On en trouve dans les maisons en ruine. Il n'a pas de forme bien définie car il est fait de gaz.,92
+276,Il n'apparaît pas par jour de grand vent. Il utilise une substance proche du gaz qui entoure la proie et provoque le sommeil.,92
+277,Il peut se glisser à travers les murs comme une créature d'une autre dimension.,93
+278,Les tremblements provoqués par le contact de sa langue éthérée ne s'arrêtent qu'à l'évanouissement.,93
+279,"Si vous trébuchez sans raison apparente en étant seul dans une pièce, un Spectrum ne doit pas être loin.",93
+280,"Les nuits de pleine lune, il imite l'ombre des passants et se moque de leur effroi.",94
+281,"Quand il lance une malédiction, il émet une aura malveillante qui provoque des frissons.",94
+282,Il est connu pour attaquer les voyageurs perdus en montagne. On le décrit souvent comme le sourire d'un croissant de lune.,94
+283,Les parties en pierre de son corps durcissent pour devenir comme un diamant de couleur noire.,95
+284,Il creuse sous terre en quête de nourriture. Ses tunnels servent de maison aux Taupiqueur.,95
+285,"Son énorme corps dépasse les 8 mètres. En dépit d'un tel calibre, il peut se déplacer à plus de 80 km/h.",95
+286,"Il endort ses ennemis et dévore leurs songes. En mangeant de mauvais rêves, il devient malade.",96
+287,"Si vous dormez près de lui, il influencera vos rêves avec les songes qu'il a dévoré.",96
+288,Il endort sa victime et dévore ses rêves. On raconte qu'il est un descendant de la créature légendaire asiatique : Baku.,96
+289,"En fixant son adversaire, il l'assaille avec les attaques Psy d'Hypnose et de Choc Mental.",97
+290,"Évitez son regard quand vous en croisez un, ou il essayera de vous hypnotiser avec son pendule.",97
+291,"Si vous croisez son regard, il tentera de vous hypnotiser. Il est donc conseillé de fermer les yeux avant de le rencontrer.",97
+292,Ses pinces sont des armes très puissantes. Elles lui servent aussi à garder son équilibre.,98
+293,"Ses pinces sont de puissantes armes. Si une se casse durant un combat, elle repoussera vite.",98
+294,"Il vit sur les plages. Si l'une de ses pinces tombe, une plus grosse et plus puissante viendra la remplacer.",98
+295,Son énorme pince peut déployer une pression de 1000 Kg. Mais elle est très encombrante.,99
+296,"Sa pince, grosse et dure comme de l'acier, peut déployer une pression de 100 tonnes.",99
+297,On le dit capable d'ouvrir un Kokiyas ou un Crustabri de sa puissante pince géante. Et ça c'est pas rien.,99
+298,"Vivant dans les centrales, ce Pokémon survolté est souvent confondu avec une Poké Ball.",100
+299,On dit qu'il se déguise en Poké Ball. Il s'autodétruira à la moindre stimulation.,100
+300,On le trouve souvent dans les centrales. Certains affirment l'avoir vu absorber l'énergie des trains électriques.,100
+301,Il emmagasine des quantités énormes de courant électrique sous pression pouvant exploser.,101
+302,"Il stocke de l'énergie électrique dans son corps, ce qui le rend instable et explosif.",101
+303,Il emmagasine d'énormes quantités d'électricité et explose à la moindre provocation. Il est extrêmement dangereux.,101
+304,"Souvent pris pour des oeufs, ils attaquent en groupe comme un essaim.",102
+305,Les têtes sont attirées les unes vers les autres. Il en faut 6 pour qu'il établisse son équilibre.,102
+306,"Un Pokémon semblable aux graines d'un arbre. Si vous poursuivez l'une d'elles, d'autres s'y colleront sans que vous le remarquiez.",102
+307,"On raconte que si une de ses têtes se détache, elle se transforme en un Noeunoeuf.",103
+308,Son hurlement est strident car ses 3 têtes se chamaillent tout le temps.,103
+309,"Chacun des fruits est une tête pensante indépendante. Si l'une d'elles tombe, elle devient un Noeunoeuf.",103
+310,Il ne retire jamais son casque en os. Personne n'a jamais vu le visage de ce Pokémon.,104
+311,Il porte le crâne de sa défunte mère. Ses pleurs résonnent dans son casque en une triste mélodie.,104
+312,Il porte en permanence le crâne de sa mère décédée en guise de casque et ne montre jamais son visage. Il hurle à la pleine lune.,104
+313,L'os qu'il tient dans sa main est une arme. Il peut le lancer avec adresse pour assommer sa proie.,105
+314,"Petit et faible, ce Pokémon est habile avec sa masse en os. Il devient vicieux avec l'âge.",105
+315,"A l'origine assez faible, ce Pokémon devient fort et agressif dès le jour où il apprend à se servir d'os comme d'une arme.",105
+316,"S'il est pressé, ses jambes s'allongent progressivement. Il court alors très rapidement.",106
+317,"Quand il donne des coups de pied, ceux-ci deviennent durs comme le diamant.",106
+318,Il frappe de ses jambes élastiques et télescopiques. Certains l'appellent: le démon qui donne des coups d'latte.,106
+319,"Il distribue des séries de coups de poing rapides comme l'éclair, invisibles à l'oeil nu.",107
+320,Ses coups de poings rotatifs sont si puissants qu'il peut forer le béton comme un marteau-piqueur.,107
+321,Il envoie ses poings plus vite que le train express Paris - Sarcelles. Il travaille son jeu de jambes toutes les trois minutes.,107
+322,Il peut projeter sa langue comme un caméléon. Tout contact avec elle provoque une irritation.,108
+323,Sa langue mesure 2m et elle est plus maniable que ses pattes. Son contact provoque la paralysie.,108
+324,"Sa langue, deux fois plus longue que son corps, tournoie pour attraper une proie. Une léchouille provoque des frissons.",108
+325,"Son corps, constitué de gaz toxiques et instables, peut exploser soudainement.",109
+326,"Dans des endroits chauds, son corps fait de gaz devient instable et peut exploser. Attention !",109
+327,Un Pokémon à l'apparence d'un fin ballon rempli de gaz hautement toxique. Il est connu pour exploser très facilement.,109
+328,Deux Smogo peuvent se combiner en un Smogogo en mélangeant leurs gaz.,110
+329,"Ce Pokémon se nourrit de gaz, de poisons, et de germes que l'on peut trouver dans des tas d'ordures.",110
+330,"Une rare formation d'un double Smogo, se produisant sous l'abondance de gaz toxiques. Leurs deux gaz sont de nature différente.",110
+331,"Avec une ossature 1000 fois plus résistante que celle de l'homme, ses charges sont dévastatrices.",111
+332,"Un Pokémon qui a des oeillères. S'il se met à charger, il ne s'arrêtera qu'à l'épuisement.",111
+333,"Ses os sont 1000 fois plus durs que ceux de l'homme. Grâce à sa force et à sa résistance, il peut détruire d'importants immeubles.",111
+334,Son épiderme très épais lui permet de survivre dans un environnement de plus de 3600 degrés.,112
+335,Il peut se tenir debout. Il semble un peu intelligent. Son épiderme résiste même à la lave.,112
+336,"Protégé par une épaisse armure, il résiste à des températures dépassant 3600 degrés. Il perce des trous dans d'énormes rochers.",112
+337,Un Pokémon rare et difficile à capturer qui porte chance et bien-être à son possesseur.,113
+338,"Il est gentil et aimable, et il partage ses œufs nourrissants avec les Pokémon blessés.",113
+339,"Il pond de délicieux œufs tous les jours. S'il est aimé et bien entraîné, ses Œufs deviendront encore plus délicieux.",113
+340,Son corps est recouvert de lianes similaires à des algues. Elles bougent quand il marche.,114
+341,Son corps est masqué par une masse épaisse de lianes bleues qui poussent en permanence.,114
+342,Son identité est obscurcie par d'innombrables lianes bleues semblables à des algues. Il s'emmêle pour un rien.,114
+343,Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de 3 ans.,115
+344,Il élève son petit dans sa poche ventrale. Il ne l'abandonne jamais dans un combat.,115
+345,La femelle élève son petit dans sa poche ventrale pendant près de trois ans. Celui-ci sort une fois capable de se nourrir.,115
+346,Réputé pour tirer avec précision un jet d'encre sur des insectes volants depuis la surface de l'eau.,116
+347,"Menacé, il crache un jet d'encre ou d'eau de sa bouche pour se défendre.",116
+348,Il utilise sa queue pour garder l'équilibre tout en crachant de l'encre sur de petites créatures comme des insectes.,116
+349,Il peut nager à l'envers en agitant ses petites nageoires pectorales.,117
+350,Le contact de sa nageoire provoque une irritation. Il ancre sa queue au corail pour dormir.,117
+351,Un Pokémon très intelligent pouvant nager à reculons. Un coup de ses pics peut provoquer un K.O. immédiat.,117
+352,Sa queue ondule gracieusement comme un voile. On l'appelle: Reine Des Océans.,118
+353,"Quand survient la saison de ponte, on peut en voir dans les rivières et les cascades en larges groupes.",118
+354,"Son élégante nageoire flotte et volète comme une robe dans le vent du soir. Et en plus, il nage à une vitesse de 5 nœuds.",118
+355,"Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs.",119
+356,Le mâle utilise la corne placée sur son front pour creuser un nid dans la rivière.,119
+357,"A l'automne, ils voyagent vers la source des fleuves pour se reproduire. Le reste de l'année, ils vivent dans leur propre nid.",119
+358,Un Pokémon bien curieux qui peut régénérer ses appendices sectionnés lors d'un combat.,120
+359,"Tant que sa partie centrale est indemne, il peut régénérer les parties de son corps.",120
+360,Il peut faire repousser n'importe quelle partie découpée de son corps. La nuit tombée son centre brille d'une lueur rougeâtre.,120
+361,Son coeur brille des couleurs de l'arc-en-ciel. On raconte que c'est une pierre précieuse.,121
+362,"Quand le centre de son corps, appelé le cœur, brille de 7 couleurs, il essaie de parler.",121
+363,"Loin des yeux des humains, on raconte que son cœur brille de sept étranges couleurs. On le dit originaire de l'espace.",121
+364,Dérangez-le pendant qu'il mime et il se battra en distribuant des volées de claques.,122
+365,Il est toujours en train de mimer. Il leurre ses ennemis en mimant des actions irréelles.,122
+366,Il est le maître des mimes et adore se donner en spectacle. Il gifle à l'occasion ceux qui le dérangent pendant son spectacle.,122
+367,"Rapide et agile comme un ninja, il se déplace si vite qu'il crée l'illusion d'être en groupe.",123
+368,"Bondissant hors de l'herbe comme un ninja, il lacère sa proie de ses griffes acérées.",123
+369,Ultra-rapide et réputé pour trancher de ses bras ses victimes en fines lamelles. Il ne se sert de ses ailes et ne vole que rarement.,123
+370,Il ondule ses hanches en marchant et entraîne les gens dans des danses frénétiques.,124
+371,Il bouge en rythme comme s'il dansait. Il ondule du popotin quand il marche.,124
+372,Il parle d'une façon incompréhensible et étrange. Il est connu pour ses gigotements ridicules entraînant les gens à danser.,124
+373,"Vivant dans les centrales, il provoque des pannes de courant en s'aventurant en ville.",125
+374,Il provoque des pannes de courant dans les centrales en mangeant de l'électricité.,125
+375,Ils rôdent dans les centrales à la recherche d'électricité. On raconte que leur disparition entraînerait des coupures de courant.,125
+376,"Son corps en fusion brûle d'une flamme orangée, le rendant invisible dans le feu.",126
+377,"Né dans un volcan en fusion, son corps est recouvert de flammes, comme une boule de feu.",126
+378,"Avec un corps atteignant les 2200 degrés, ce Pokémon est constamment en feu. Il vit près des volcans en activité.",126
+379,"Quand il ne peut écraser sa proie avec sa pince, il la secoue et l'envoie dans les airs.",127
+380,Il enserre sa proie de sa puissante pince. Il ne peut se déplacer dans les milieux froids.,127
+381,Il agrippe et enserre sa victime avec les deux pinces sur sa tête. Les ennemis trop résistants sont balancés au loin.,127
+382,"Une fois sa cible en vue, il la charge furieusement en fouettant l'air de sa queue.",128
+383,C'est un Pokémon très endurant. Il n'achève sa charge qu'une fois sa cible pulvérisée.,128
+384,"Il charge en battant les flancs de son corps de ses longues queues. Bien que puissant, il ne peut que charger en ligne droite.",128
+385,"Autrefois, il était beaucoup plus puissant que cette créature minablement faible.",129
+386,"Célèbre pour son inutilité, on en trouve beaucoup dans les océans, les étangs et les rivières.",192
+387,"Quel que soit son adversaire, quelle que soit l'attaque qu'il reçoit en pleine tête, il ne lancera qu'une Trempette.",192
+388,"Gigantesque et maléfique, il est capable de raser une ville dans un accès de rage terrifiante.",130
+389,"Brutal, vicieux et dangereux, il est connu pour avoir rasé des villes entières par le passé.",130
+390,"Vicieux, hargneux, teigneux et brutal. Il est assez fort pour détruire une ville entière s'il n'est pas de bonne humeur.",130
+391,Ce Pokémon en voie d'extinction peut transporter des passagers sur son dos par-delà les océans.,131
+392,"D'une âme noble, il peut lire dans les esprits. Il transporte les humains sur son dos.",131
+393,Il comprend parfaitement le langage des hommes et aime les transporter sur son dos. Il est malheureusement en voie d'extinction.,131
+394,Il est capable de copier le code génétique d'un ennemi pour se transformer en son double.,132
+395,"Quand il repère un ennemi, il adapte sa forme pour en faire une copie parfaite.",132
+396,Il est capable de transformer ses cellules pour copier parfaitement son ennemi. Sa forme initiale ressemble à un blob.,132
+397,Sa génétique particulière lui permet d'évoluer s'il est exposé aux radiations d'une pierre.,133
+398,Sa génétique instable lui permet d'évoluer de plusieurs façons. Très peu sont en vie.,133
+399,Son code génétique est irrégulier. Il peut se transformer en trois Pokémon différents selon les radiations de certaines pierres.,133
+400,Il vit au bord de l'eau. Sa queue lui donne l'apparence d'une sirène.,134
+401,Sa structure cellulaire est semblable à celle de l'eau. Il est invisible en milieu aquatique.,134
+402,Il se repose au bord des lacs. Son code génétique est identique à celui de l'eau. Il peut donc se fondre en milieu aquatique.,134
+403,Il se charge d'électricité statique pour envoyer des décharges de 10000 volts.,135
+404,Un Pokémon très sensible et lunatique. Il se charge en énergie selon son humeur.,135
+405,Ses attaques sont des décharges de 10.000 volts et des coups de poil piquant. Sa fourrure peut percer certains ennemis.,135
+406,Il peut accumuler suffisamment de chaleur pour atteindre des températures de 1600 degrés.,136
+407,Une flamme brûle en permanence dans son corps. Il crache un feu de plus de 1000 degrés.,136
+408,Son souffle de feu avoisine les 3000 degrés. Sa température corporelle dépasse les 1 650 degrés en maintenant du feu en lui.,136
+409,Un Pokémon fait de programmes et d'algorithmes. Il peut survivre en milieu virtuel.,137
+410,"Conçu pour voler dans l'espace, on ne lui a toujours pas trouvé une autre utilité.",137
+411,Un Pokémon créé par l'homme composé de codes de programmation. Il se déplace librement en espace virtuel.,137
+412,"Disparu depuis longtemps, il peut être réanimé génétiquement à partir d'anciens fossiles.",138
+413,Un ancien Pokémon régénéré à partir d'un fossile. Il nage grâce à ses 10 tentacules.,138
+414,"Un Pokémon préhistorique disparu depuis longtemps, ressuscité à partir d'un fossile. Il nage en remuant ses 10 tentacules.",138
+415,Un Pokémon préhistorique qui disparut quand sa coquille devint trop lourde à déplacer.,139
+416,Sa bouche est formée de becs aiguisés. Sa coquille trop lourde l'empêche de se déplacer.,139
+417,Il attaque en enserrant son ennemi de ses tentacules et en le mordillant avec ses crocs acérés. Il est en revanche assez lent.,139
+418,Un Pokémon reconstitué à partir d'un fossile trouvé dans un site préhistorique.,140
+419,"Créé à partir d'un fossile, il se sert des yeux dans son dos quand il se cache au fond de l'eau.",140
+420,Un Pokémon ressuscité à partir d'une fossile trouvé sur une plage antique. Il ne peut se relever s'il se renverse.,140
+421,Sa forme élancée lui permet de nager rapidement. Il lacère sa proie avant d'en absorber la vie.,141
+422,C'est un très bon nageur. Il lacère sa proie de ses longues griffes et en absorbe les fluides corporels.,141
+423,Il nage très rapidement. Il lacère ses ennemis grâce à ses longues griffes et en absorbe les fluides vitaux.,141
+424,Un Pokémon préhistorique qui attaque son ennemi à la gorge avec ses crocs acérés.,142
+425,Un Pokémon sauvage disparu il y a longtemps. Il est créé à partir d'ADN fossilisé dans de l'ambre.,142
+426,Un Pokémon ressuscité grâce à l'ADN d'un dinosaure. Il attaque avec ses crocs et est extrêmement vicieux.,142
+427,"Très paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fainéant.",143
+428,"Il peut tout manger, même de la nourriture avariée. Il n'a jamais mal au ventre.",143
+429,Un Pokémon super-flemmard qui devient super-gros plus il super-mange. Il ne se réveille que pour super-manger.,143
+430,Le légendaire oiseau des glaces. On dit qu'il apparaît aux gens perdus dans les sommets.,144
+431,Un Pokémon légendaire. Il glace la vapeur d'eau contenue dans l'air pour faire de la neige.,144
+432,Un Pokémon légendaire aux longues plumes. On raconte qu'il n'apparaît qu'en présence de voyageurs gelés en montagne.,144
+433,L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs.,145
+434,"Ce Pokémon légendaire annonce l'arrivée de nuages noirs, d'éclairs et d'averses.",145
+435,Un Pokémon légendaire toujours accompagné d'un orage. Ses battements d'ailes créent des bruits de court-circuit.,145
+436,Le légendaire oiseau du feu. Une pluie de flammes surgit à chaque battement de ses ailes.,146
+437,"Quand ce Pokémon légendaire agite ses ailes de feu, même la nuit noire s'embrase et rougeoie.",146
+438,"Un Pokémon légendaire connu sous le nom de ""oiseau de feu"". En plein vol, ses ailes laissent une trace de flammes dans le ciel.",146
+439,"Longtemps considéré comme légendaire, une colonie fut découverte dans les océans.",147
+440,L'existence de ce Pokémon mythique ne fut confirmée que récemment par un pêcheur.,147
+441,"Même les plus jeunes dépassent 1,80m. Il est très rare et est souvent considéré comme un mythe.",147
+442,Un Pokémon légendaire plein de charme. Il peut contrôler les variations climatiques.,148
+443,"Selon certains, son corps est baigné d'une étrange aura, lui donnant un air mystique.",148
+444,Il vit dans d'immenses milieux aquatiques. On raconte qu'il possède le pouvoir d'altérer le climat et de voler.,148
+445,Un Pokémon marin extrêmement rare. On dit qu'il est aussi intelligent que l'homme.,149
+446,On raconte que ce Pokémon vit quelque part dans la mer et qu'il peut voler. Rien n'est moins sûr.,149
+447,"Incroyablement intelligent, ce ""Dieu des Mers"" a la réputation de pouvoir voler autour du globe en moins de 16 heures.",149
+448,Il est le fruit de nombreuses expériences génétiques horribles et malsaines.,150
+449,"Son ADN est le même que celui de Mew mais sa taille et son aspect sont très différents.
+",150
+450,Un Pokémon Psy vicieux et dangereux créé par l'homme. Ses yeux froids et brillants pétrifient de peur chaque adversaire.,150
+451,"Unique et rare, son existence est remise en cause par les experts. Peu nombreux sont ceux qui l'ont vu.",151
+452,"Vu au microscope, le pelage de ce Pokémon est fin, soyeux et très délicat.",151
+453,"Un Pokémon mythique d'Amérique du Sud. Bien que réputé comme disparu, de nombreux témoignages certifient son existence.",151
