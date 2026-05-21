@@ -61,4 +61,15 @@ const getPokemonBaseById = async (req,res) => {
     }
 }
 
-module.exports = {getAllPokemons,getPokemonById,getPokemonTypesById,getPokemonEvolutionsById,getPokemonBaseById}
+// GET /api/pokemon/:id/description
+// Retourne les déscriptions d'un pokemon
+const getPokemonDescriptionById = async (req,res) => {
+    try {
+        const [rows] = await pool.query("SELECT * from descriptionpokemon WHERE descriptionpokemon.id_pok = ?",req.params.id);
+        res.json(rows);
+    }catch (error){
+        res.status(500).json({message: "Erreur serveur", error: error.message});
+    }
+}
+
+module.exports = {getAllPokemons,getPokemonById,getPokemonTypesById,getPokemonEvolutionsById,getPokemonBaseById,getPokemonDescriptionById}
